@@ -14,7 +14,7 @@ public class DockerHelloWorld {
 		return "Welcome to deployment in docker";
 	}
 	
-	@GetMapping("/aws")
+	@GetMapping("/aws-test")
 	public String getTest() {
 		
 		return "Welcome to deployment in aws";
