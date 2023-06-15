@@ -17,6 +17,6 @@ public class DockerHelloWorld {
 	@GetMapping("/aws")
 	public String getTest() {
 		
-		return "Welcome to testing deployment in aws";
+		return "Welcome to testing deployment in aws nuage";
 	}
 }
