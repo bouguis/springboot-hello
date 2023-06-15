@@ -13,4 +13,10 @@ public class DockerHelloWorld {
 		
 		return "Welcome to deployment in docker";
 	}
+
+	@GetMapping("/aws")
+	public String getName() {
+		
+		return "Welcome to deployment in aws";
+	}
 }
