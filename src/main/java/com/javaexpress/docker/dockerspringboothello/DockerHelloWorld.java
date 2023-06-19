@@ -17,7 +17,7 @@ public class DockerHelloWorld {
 	@GetMapping("/")
 	public String getState() {
 
-		return "Welcome to deployment automatic";
+		return "Welcome to deployment automatic delevred by bouguis";
 	}
 	
 }
