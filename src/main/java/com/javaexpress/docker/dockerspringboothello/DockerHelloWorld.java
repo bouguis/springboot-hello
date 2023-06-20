@@ -17,7 +17,7 @@ public class DockerHelloWorld {
 	@GetMapping("/")
 	public String getState() {
 
-		return "Welcome to deployment automatic pushing in aws ----STX---- ";
+		return "Welcome to deployment automatic pushing in aws ----SYSTEMATIX---- ";
 	}
 	
 }
