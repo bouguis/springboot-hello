@@ -17,7 +17,7 @@ public class DockerHelloWorld {
 	@GetMapping("/")
 	public String getState() {
 
-		return "Welcome ----SYSTEMATIX---- ";
+		return "Welcome ----SYSTEMATIX STUDIO---- ";
 	}
 	
 }
